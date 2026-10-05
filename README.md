@@ -14,3 +14,6 @@ git clone [https://github.com/mislin4/py-ast-code-inspector.git](https://github.
 cd py-ast-code-inspector
 pip install -r requirements.txt
 pytest tests/ -v
+## Roadmap
+- [ ] Add support for `async`/`await` coroutine inspection
+- [ ] Support TypeAlias and runtime type hint introspection
